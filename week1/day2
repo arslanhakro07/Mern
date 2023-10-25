@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style> 
+   body{
+       background-image: url("https://images.unsplash.com/photo-1618317322655-6ecbae5c9788?auto=format&fit=crop&q=80&w=1015&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+       background-repeat:no-repeat ;
+       background-size: cover;
+  }
+  #circle{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("https://images.unsplash.com/photo-1611605698323-b1e99cfd37ea?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+    
+  }
+  
+  #circle2{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("https://images.unsplash.com/photo-1611162616475-46b635cb6868?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+    
+  }
+  #circle3{
+   
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image:url("https://images.unsplash.com/photo-1633354931133-27ac1ee5d853?auto=format&fit=crop&q=80&w=1480&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+   
+ }
+ #circle4{
+  
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image:url("https://images.unsplash.com/photo-1614680376593-902f74cf0d41?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+   
+ }
+ 
+  #circle5{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("https://images.unsplash.com/photo-1611162618071-b39a2ec055fb?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+    
+  }
+  #circle6{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("https://images.unsplash.com/photo-1611605698335-8b1569810432?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") ;
+    
+  }
+  
+  #circle7{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("https://media.istockphoto.com/id/1383510053/photo/twitter-3d-logo-3d-render-image-illustration.jpg?s=1024x1024&w=is&k=20&c=LB6PLFtLNWA9RlplEt_j0ppp0Z6Xr5D-ldGXit0kB6Y=") ;
+    
+  }
+  #circle8{
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url("https://media.istockphoto.com/id/1311443051/photo/3d-social-media-notification-with-heart-icon-stock-photo-isolated-on-white-background.jpg?s=1024x1024&w=is&k=20&c=PlT0MzRSKdEIjT5DeCb2WxR0WDVxqJIWXFk21tI7XnY=") ;
+    
+  }
+  .circles{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+  }
+  input{
+    text-align: center;
+border-radius: 50px;
+width: 700px;
+height: 50px;
+margin-top: 0px;
+margin-bottom: 0px;
+
+  }
+  #page{ color: white;
+    
+    margin-bottom: 20px;
+   
+  }
+  h1{
+   
+    font-size: 100px;
+  }
+  #container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 270px;
+    margin-top: 0px;
+    
+  }
+  .circles{
+    margin: 20px;
+    margin-left: 50px;
+    
+  }
+ 
+  </style>
+</head>
+<body><center>
+    <div id="page">
+  
+    <h1>Google</h1>
+    
+    <br> 
+<input type="text" name="search" id="input" placeholder="search on Google" style="text-align: center; font-size: 20px;"></center>
+    
+<div id="container"> 
+    <div id="circle" class="circles"></div>
+    <div id="circle2" class="circles"></div>
+    <div id="circle3" class="circles"></div>
+    <div id="circle4" class="circles"></div>
+</div>
+<div id="container"> 
+    <div id="circle5" class="circles"></div>
+    <div id="circle6" class="circles"></div>
+    <div id="circle7" class="circles"></div>
+    <div id="circle8" class="circles"></div>
+</div>
+  
+  
+</div>
+</body>
+</html>
