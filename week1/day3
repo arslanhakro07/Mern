@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+#Container{
+    display: flex;
+}       
+#header{
+
+    
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 300px;
+    
+}
+a{
+    margin: 20px;
+    color: black;
+    text-decoration: none;
+}
+#description{
+   justify-content: center;
+    border: solid 1px;
+    border-color: black;
+    padding: 20px;
+    margin-top: 20px;
+    width: 900px;
+    height: 250px;
+    font-size: 20px;
+    color: blue;
+    font-weight: lighter;
+    margin-left: 50px;
+    
+    margin-top: 50px;
+    margin-right: 50px;
+   
+    
+
+}
+#extraContent{
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+
+  
+
+}
+#profile{
+    padding: 20px;
+    width: 200px;
+    height: 1200px;
+    
+    justify-content: center;
+}
+#picture{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+   background-image: url("https://images.unsplash.com/photo-1584043720379-b56cd9199c94?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+   background-position: center;
+   background-size: cover;
+}
+input{
+    width: 150px;
+}
+#contents{
+    justify-content: center;
+    text-align: center;
+    border: solid 1px;
+    margin-top: 50px;
+}
+li{
+    margin-top: 20px;
+    list-style: none;
+}
+
+    </style>
+</head>
+<body>
+    <header id="header">
+    
+        <a href="Overview">overview</a>
+        <a href="Repositries">Repositries</a>
+        <a href="Projects">projects</a>
+        <a href="Packages ">packages</a>
+        <a href="Stars">stars</a></header>
+    <div id="Container">
+    
+
+        <div id="profile">
+
+            <div id="picture">
+               
+            </div>
+            <h1>Arslan Nawaz</h1>
+            <h4>username:arslannawaz07</h4>
+            <input type="button" value="follow" id="button">
+            <br><p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus optio, placeat, culpa cupiditate similique velit blanditiis itaque maiores quisquam ea recusandae, quibusdam explicabo fuga repellat assumenda modi! Voluptate, iste commodi?
+            </p>
+
+
+        </div>
+        <div id="contents">
+            <div id="description">
+                <h2>Hi there i am Arslan Nawaz</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae dolorem nisi molestias in, qui cupiditate eligendi enim modi aspernatur, id eius! Fuga voluptatum atque voluptas eveniet iure perferendis rem illo!</p>
+            </div>  
+            <div id="endText">
+                <li>Name:Arslan Nawaz</li>
+                <li>username:arslannawaz07</li>
+                <li>father Name:Ali Nawaz</li>
+                <li>Skills</li>
+              
+            </div>
+
+        </div>
+    </div>
+   
+
+</body>
+</html>
